@@ -1,12 +1,24 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 public class RGBMain {
     
     public static void main(String[] args) throws Exception {
-        RGB color1 = new RGB(0, 0.3, 1);
-        color1.turnToGrey();
+        Scanner sc = new Scanner(System.in);
+        sc.useLocale(Locale.US);
+            
+        System.out.println("red");
+        double r = sc.nextDouble();
+            
+        System.out.println("blue");
+        double b = sc.nextDouble();
+
+        System.out.println("green");
+        double g = sc.nextDouble();
+
+        RGB color1 = new RGB(r, g, b);
         color1.display();
-        color1.set(0.5);
-        color1.display();
-        color1.set(0.1, 0.2, 0.3);
-        color1.display();
+
+        sc.close();
     }
 }
