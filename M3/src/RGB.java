@@ -1,7 +1,7 @@
 public class RGB {
      
-    final static double MIN_RANGE = 0;
-    final static double MAX_RANGE = 1;
+    final static public double MIN_RANGE = 0;
+    final static public double MAX_RANGE = 1;
 
     //Attributs
         private double red;
