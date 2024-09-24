@@ -9,4 +9,5 @@
     "java.project.sourcePaths": ["src"],
     "redhat.telemetry.enabled": false,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "java.debug.settings.onBuildFailureProceed": true,
 }

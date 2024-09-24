@@ -19,7 +19,7 @@ public class TrajectoryGeneratorMain {
             //System.out.println(traj.toString());
 
             Plot plot = new Plot();
-            for (int i=0; i<50; i++){
+            for (int i=0; i<N; i++){
                 plot.addPoint(0,traj.getX(i),traj.getY(i),true);
             }
             JFrame frame = new JFrame("Trajectory");
@@ -29,7 +29,7 @@ public class TrajectoryGeneratorMain {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         }
 
-        if(args.length == 5 ){
+        else if(args.length == 5 ){
 
             double xmin = Double.parseDouble(args[1]);
             double xmax = Double.parseDouble(args[2]);
@@ -41,7 +41,7 @@ public class TrajectoryGeneratorMain {
             //System.out.println(traj.toString());
 
             Plot plot = new Plot();
-            for (int i=0; i<50; i++){
+            for (int i=0; i<N; i++){
                 plot.addPoint(0,traj.getX(i),traj.getY(i),true);
             }
             JFrame frame = new JFrame("Trajectory");
@@ -50,6 +50,9 @@ public class TrajectoryGeneratorMain {
             frame.setVisible(true);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        }
+        else {
+            System.out.println("Invalid number of arguments");
         }
     }
 }
