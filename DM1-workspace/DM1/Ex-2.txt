@@ -1,0 +1,12 @@
+2 WordCounter class
+ 4.00 /  4.00
+
+Detailed grades:
+ 0.50 /  0.50   2a Attribute and constructor
+ 0.50 /  0.50   2b Get count of an unparsed word
+ 0.50 /  0.50   2c Get counts after parsing
+ 0.50 /  0.50   2d Get counts after parsing twice
+ 0.50 /  0.50   2e Acceptable type for wordCounts
+ 0.50 /  0.50   2f Most appropriate type for wordCounts
+ 0.50 /  0.50   2g Public and private access
+ 0.50 /  0.50   2h Textual representation

@@ -1,0 +1,10 @@
+Label;Scope;Max;Value
+2 WordCounter class;Subtotal;4.00;4.00
+2a Attribute and constructor;Element;0.50;0.50
+2b Get count of an unparsed word;Element;0.50;0.50
+2c Get counts after parsing;Element;0.50;0.50
+2d Get counts after parsing twice;Element;0.50;0.50
+2e Acceptable type for wordCounts;Element;0.50;0.50
+2f Most appropriate type for wordCounts;Element;0.50;0.50
+2g Public and private access;Element;0.50;0.50
+2h Textual representation;Element;0.50;0.50

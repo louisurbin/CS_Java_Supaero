@@ -1,0 +1,8 @@
+Label;Scope;Max;Value
+1.2 HouseController class;Subtotal;4.00;4.00
+1.2a Attributes and constructors;Element;0.50;0.50
+1.2b Devices management;Element;1.00;1.00
+1.2c Adjust temperatures (no cutoff needed);Element;1.00;1.00
+1.2d Adjust temperatures (high and low cutoff);Element;0.50;0.50
+1.2e Public and private access;Element;0.50;0.50
+1.2f Textual representation;Element;0.50;0.50

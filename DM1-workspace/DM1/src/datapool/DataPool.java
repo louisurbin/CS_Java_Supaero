@@ -45,7 +45,7 @@ public class DataPool<E> {
     }
 
     public double occupancyPercentage(){
-        return (double) this.datapool.size()/this.capacity;
+        return (double) this.datapool.size()/this.capacity*100;
     }
 
     public String toString(){

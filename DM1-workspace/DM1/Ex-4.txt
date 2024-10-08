@@ -1,0 +1,9 @@
+4 DataPool generic class
+ 4.00 /  4.00
+
+Detailed grades:
+ 1.00 /  1.00   4a DataPool class declaration
+ 1.00 /  1.00   4b DataPool repeated add/get
+ 1.00 /  1.00   4c DataPool remove among adds
+ 0.50 /  0.50   4e DataPool occupancy indicators
+ 0.50 /  0.50   4e DataPool optimal storage

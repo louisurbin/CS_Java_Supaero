@@ -1,0 +1,9 @@
+3 PiApprox class
+ 4.00 /  4.00
+
+Detailed grades:
+ 1.00 /  1.00   3a machin() computes John Machin's formula
+ 0.50 /  0.50   3b machin() method declaration
+ 0.50 /  0.50   3c machin() method declaration, continued
+ 1.00 /  1.00   3d machin() calls static Math method atan()
+ 1.00 /  1.00   3e machin() uses numbers from the formula

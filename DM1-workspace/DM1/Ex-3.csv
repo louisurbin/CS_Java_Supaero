@@ -1,0 +1,7 @@
+Label;Scope;Max;Value
+3 PiApprox class;Subtotal;4.00;4.00
+3a machin() computes John Machin's formula;Element;1.00;1.00
+3b machin() method declaration;Element;0.50;0.50
+3c machin() method declaration, continued;Element;0.50;0.50
+3d machin() calls static Math method atan();Element;1.00;1.00
+3e machin() uses numbers from the formula;Element;1.00;1.00

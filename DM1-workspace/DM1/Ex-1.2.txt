@@ -1,0 +1,10 @@
+1.2 HouseController class
+ 4.00 /  4.00
+
+Detailed grades:
+ 0.50 /  0.50   1.2a Attributes and constructors
+ 1.00 /  1.00   1.2b Devices management
+ 1.00 /  1.00   1.2c Adjust temperatures (no cutoff needed)
+ 0.50 /  0.50   1.2d Adjust temperatures (high and low cutoff)
+ 0.50 /  0.50   1.2e Public and private access
+ 0.50 /  0.50   1.2f Textual representation

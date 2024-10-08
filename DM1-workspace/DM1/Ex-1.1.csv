@@ -1,0 +1,10 @@
+Label;Scope;Max;Value
+1.1 Thermostat class;Subtotal;6.00;6.00
+1.1a Attributes, constructor and toString();Element;1.00;1.00
+1.1b Keep nominal temperatures;Element;1.00;1.00
+1.1c Cut off temperatures < 17;Element;1.00;1.00
+1.1d Cut off temperatures > 25;Element;1.00;1.00
+1.1e Public and private access;Element;0.50;0.50
+1.1f Constant definition;Element;0.50;0.50
+1.1g Constant usage;Element;0.50;0.50
+1.1h Complete UML constants definition and usage;Element;0.50;0.50

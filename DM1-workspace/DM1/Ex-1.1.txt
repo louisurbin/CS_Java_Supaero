@@ -1,0 +1,12 @@
+1.1 Thermostat class
+ 6.00 /  6.00
+
+Detailed grades:
+ 1.00 /  1.00   1.1a Attributes, constructor and toString()
+ 1.00 /  1.00   1.1b Keep nominal temperatures
+ 1.00 /  1.00   1.1c Cut off temperatures < 17
+ 1.00 /  1.00   1.1d Cut off temperatures > 25
+ 0.50 /  0.50   1.1e Public and private access
+ 0.50 /  0.50   1.1f Constant definition
+ 0.50 /  0.50   1.1g Constant usage
+ 0.50 /  0.50   1.1h Complete UML constants definition and usage
