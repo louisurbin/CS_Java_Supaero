@@ -5,26 +5,24 @@ import java.util.TreeMap;
 
 public class WordCounter {
     private TreeMap<String,Integer> wordCounts;
-    
-    //constructor
+
     public WordCounter(){
         this.wordCounts = new TreeMap<>();
     }
 
-    //methods
     public void parse(ArrayList<String> words){
-        for (String word : words){
-           if (wordCounts.get(word) != null){
-                wordCounts.put(word, wordCounts.get(word) + 1);
-           }
-           else{
-                wordCounts.put(word, 1);
-           }
+        for (String str : words){
+            if (wordCounts.get(str) != null){
+                wordCounts.put(str,wordCounts.get(str)+1);
+            }
+            else{
+                wordCounts.put(str,1);
+            }
         }
     }
 
     public int getCount(String word){
-        if (wordCounts.get(word) == null){
+        if(wordCounts.get(word) == null){
             return 0;
         }
         else{
@@ -33,7 +31,6 @@ public class WordCounter {
     }
 
     public String toString(){
-        return this.wordCounts.toString();
+        return wordCounts.toString();
     }
-
 }
