@@ -1,4 +1,4 @@
-package coffeehouse.java;
+package coffeehouse;
 
 abstract public class Beverage {
     private boolean extras;
