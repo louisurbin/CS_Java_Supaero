@@ -5,16 +5,29 @@ public class Person {
     protected int age;
 
     // constructor
+    /**
+     * 
+     * @param name
+     * @param age
+     */
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
     // methods
+    /**
+     * 
+     * @return
+     */
     public String getName() {
         return this.name;
     }
 
+    /**
+     * 
+     * @return
+     */
     public int getAge() {
         return this.age;
     }

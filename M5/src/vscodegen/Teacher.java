@@ -8,7 +8,7 @@ public class Teacher extends Person {
         super(name, age);
         this.subject = subject;
     }
-
+    
     // methods
     public String getSubject() {
         return this.subject;
