@@ -1,6 +1,8 @@
 package geometry;
 
 public interface Displayable {
-    public void display();
+    default void display(){
+        System.out.println(toString());
+    };
 }
 

@@ -3,7 +3,7 @@ package geometry;
 /**
  * Simple class representing a circle
  */
-public class Circle implements AllInOne{
+public class Circle implements AllInOne, Displayable{
 
    /** Radius */
    private double radius;
@@ -58,11 +58,11 @@ public class Circle implements AllInOne{
    public String toString() {
       return "radius = " + this.radius + " center = " + this.center.toString();
    }
-
+   /*
    public void display() {
       System.out.println("Circle: " + this.toString());
    }
-
+   */
    public void translate(double dx, double dy) {
       this.center.translate(dx, dy);
    }

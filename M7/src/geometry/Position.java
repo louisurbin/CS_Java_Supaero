@@ -5,7 +5,7 @@ import org.apiguardian.api.API;
 /**
  * Simplistic class representing Cartesian 2D positions.
  */
-public class Position implements AllInOne, Comparable<Position>{
+public class Position implements AllInOne, Comparable<Position>, Displayable{
     /** Abscissa */
     private double x;
     /** Ordinate */
@@ -111,11 +111,11 @@ public class Position implements AllInOne, Comparable<Position>{
    public String toString() {
       return "(" + this.x + ", " + this.y + ")";
    }
-
+    /*
     public void display() {
         System.out.println("Position: " + this.toString());
     }
-
+    */
     public void translate(double dx, double dy) {
         this.x += dx;
         this.y += dy;
