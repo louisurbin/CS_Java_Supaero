@@ -1,0 +1,7 @@
+Kevin,6
+Bob,6
+Stuart,6
+D'Artagnan,18
+Athos,30
+Aramis,22
+Porthos,22

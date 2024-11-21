@@ -1,11 +1,13 @@
 package geometry;
 
+import java.io.Serializable;
 import java.util.Collection;
 
 /**
  * Simplistic class representing Cartesian 2D positions.
  */
-public class Position {
+public class Position implements Serializable {
+    private static final long serialVersionUID = 1L;
     /** Abscissa */
     private double x;
     /** Ordinate */
