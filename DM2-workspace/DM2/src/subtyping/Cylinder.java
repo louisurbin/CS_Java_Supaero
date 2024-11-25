@@ -16,6 +16,8 @@ public class Cylinder extends AbstractShape{
 
     @Override
     public String toString(){
-        return "Cylinder radius=" + radius + ", height=" + height + ", center at " + center;
+        return "Cylinder radius=" + radius + ", height=" + height + ", " + super.toString();
+
+
     }
 }

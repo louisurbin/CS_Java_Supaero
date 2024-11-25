@@ -14,6 +14,6 @@ public class Sphere extends AbstractShape{
 
     @Override
     public String toString(){
-        return "Sphere radius=" + radius + ", center at " + center;
+        return "Sphere radius=" + radius + ", " + super.toString();
     }
 }

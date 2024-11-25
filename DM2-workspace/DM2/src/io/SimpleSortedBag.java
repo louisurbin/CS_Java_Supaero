@@ -1,12 +1,18 @@
 package io;
 
-import java.util.TreeMap;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-public class SimpleSortedBag<E> implements SortedBag<E> {
-    protected TreeMap<E, Integer> elements;
+public class SimpleSortedBag<E extends Comparable<E>> implements SortedBag<E> {
+    protected List<E> elements;
 
     public SimpleSortedBag() {
-        this.elements = new TreeMap<>();
+        elements = new ArrayList<>();
+    }
+
+    public boolean isEmpty() {
+        return elements.isEmpty();
     }
 
     public String toString() {
@@ -14,19 +20,29 @@ public class SimpleSortedBag<E> implements SortedBag<E> {
     }
 
     public void put(E element) {
-        if (elements.containsKey(element)) {
-            elements.put(element, elements.get(element) + 1);
-        } else {
-            elements.put(element, 1);
-        }
+        elements.add(element);
+        Collections.sort(elements);
     }
 
-    public void removeFirst() {
-        if (elements.isEmpty()) {
-            return;
+    public int count(E element) {
+        int count = 0;
+        for(E e : elements) {
+            if (e.equals(element)) {
+                count++;
+            }
         }
-        else {
-            E first
-        }
+        return count;
+    }
+
+    public E removeFirst() {
+        return this.elements.removeFirst();
+    }
+
+    public E removeLast() {
+        return this.elements.removeLast();
+    }
+
+    public List<E> getElements() {
+        return Collections.unmodifiableList(elements);
     }
 }

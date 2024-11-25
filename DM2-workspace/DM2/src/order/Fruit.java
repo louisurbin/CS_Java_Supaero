@@ -1,5 +1,7 @@
 package order;
 
+import java.util.Objects;
+
 public class Fruit implements Comparable<Fruit> {
     private String color;
     private String name;
@@ -23,7 +25,7 @@ public class Fruit implements Comparable<Fruit> {
     }
 
     public int hashCode() {
-        return this.name.hashCode() + this.color.hashCode();
+        return Objects.hash(this.name, this.color);
     }
 
     public boolean equals(Object obj) {
