@@ -1,0 +1,32 @@
+1.3 Subtyping: Scene class
+ 0.00 /  3.00
+
+Detailed grades:
+ 0.00 /  1.00   1.3a Scene shapes attribute and constructor
+                The shapes attribute should be able to store spheres and cylinders, and be initialised in the constructor
+ 0.00 /  0.50   1.3b Scene sphere addition
+                addShape() should allow to store spheres into shapes
+ 0.00 /  0.50   1.3c Scene cylinder addition
+                addShape() should allow to store cylinders into shapes
+ 0.00 /  1.00   1.3d Scene sum of shapes volumes
+                sumOfVolumes() should sum the volumes of all stored shapes
+
+
+
+Detailed failures:
+
+1.3a Scene shapes attribute and constructor
+    Multiple Failures (1 failure)
+    -- failure 1 --
+    Expecting actual not to be null
+    at SceneGradingTest.shapesAttrribute(SceneGradingTest.java:41)
+
+1.3b Scene sphere addition
+    Unexpected NullPointerException: Cannot invoke "java.util.ArrayList.add(Object)" because "this.shapes" is null
+
+1.3c Scene cylinder addition
+    Unexpected NullPointerException: Cannot invoke "java.util.ArrayList.add(Object)" because "this.shapes" is null
+
+1.3d Scene sum of shapes volumes
+    Unexpected NullPointerException: Cannot invoke "java.util.ArrayList.add(Object)" because "this.shapes" is null
+

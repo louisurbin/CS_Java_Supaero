@@ -1,0 +1,20 @@
+3 Anomalies: Pixel10 class
+ 2.50 /  3.00
+
+Detailed grades:
+ 1.00 /  1.00   3a Pixel10 constructor and toString() for valid values
+ 1.00 /  1.00   3b Pixel10 at least one anomaly detection
+ 0.50 /  0.50   3c Pixel10 complete anomaly detection
+ 0.00 /  0.50   3d Pixel10 anomaly management quality
+                Pixel10 anomaly management should be explicit, use constants and an appropriate exception type
+
+
+
+Detailed failures:
+
+3d Pixel10 anomaly management quality
+    Exception message content cannot be tested automatically.
+    Does the above message contain explicit indications on the anomaly, e.g. channel or value?
+    
+    	Invalid color value
+

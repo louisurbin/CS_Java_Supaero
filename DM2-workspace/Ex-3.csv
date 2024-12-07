@@ -1,0 +1,6 @@
+Label;Scope;Max;Value
+3 Anomalies: Pixel10 class;Subtotal;3.00;2.50
+3a Pixel10 constructor and toString() for valid values;Element;1.00;1.00
+3b Pixel10 at least one anomaly detection;Element;1.00;1.00
+3c Pixel10 complete anomaly detection;Element;0.50;0.50
+3d Pixel10 anomaly management quality;Element;0.50;0.00

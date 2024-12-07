@@ -1,0 +1,8 @@
+1.2 Subtyping: Sphere and Cylinder classes
+ 3.00 /  3.00
+
+Detailed grades:
+ 1.00 /  1.00   1.2a Sphere and Cylinder subtyping relation
+ 1.00 /  1.00   1.2b Sphere and Cylinder concrete declarations
+ 0.50 /  0.50   1.2c Sphere constructor and methods
+ 0.50 /  0.50   1.2d Cylinder constructor and methods

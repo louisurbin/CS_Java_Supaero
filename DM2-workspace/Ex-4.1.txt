@@ -1,0 +1,7 @@
+4.1 SortedBag and SimpleSortedBag
+ 3.00 /  3.00
+
+Detailed grades:
+ 1.00 /  1.00   4.1a SortedBag and SimpleSortedBag generic type declarations
+ 1.00 /  1.00   4.1b Bag essential behaviour: constructor, elements, put(E), removeXxx()
+ 1.00 /  1.00   4.1c Bag full behaviour: isEmpty(), count(E), immutable getElements(), toString()

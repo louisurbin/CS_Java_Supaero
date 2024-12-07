@@ -1,0 +1,5 @@
+Label;Scope;Max;Value
+4.1 SortedBag and SimpleSortedBag;Subtotal;3.00;3.00
+4.1a SortedBag and SimpleSortedBag generic type declarations;Element;1.00;1.00
+4.1b Bag essential behaviour: constructor, elements, put(E), removeXxx();Element;1.00;1.00
+4.1c Bag full behaviour: isEmpty(), count(E), immutable getElements(), toString();Element;1.00;1.00

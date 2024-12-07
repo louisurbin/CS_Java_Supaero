@@ -1,0 +1,8 @@
+2 Natural order: Fruit class
+ 3.00 /  3.00
+
+Detailed grades:
+ 1.00 /  1.00   2a Ordering method compareTo()
+ 1.00 /  1.00   2b Natural order declarations
+ 0.50 /  0.50   2c equals() and hashCode() compatibility with compareTo()
+ 0.50 /  0.50   2d Fruit logical equality and difference

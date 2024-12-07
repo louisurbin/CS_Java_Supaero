@@ -1,0 +1,7 @@
+1.1 Subtyping: AbstractShape class
+ 3.00 /  3.00
+
+Detailed grades:
+ 1.00 /  1.00   1.1a AbstractShape important declaration parts
+ 1.00 /  1.00   1.1b AbstractShape detailed declaration
+ 1.00 /  1.00   1.1c AbstractShape concrete parts

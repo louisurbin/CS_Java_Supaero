@@ -1,0 +1,6 @@
+Label;Scope;Max;Value
+1.3 Subtyping: Scene class;Subtotal;3.00;0.00
+1.3a Scene shapes attribute and constructor;Element;1.00;0.00
+1.3b Scene sphere addition;Element;0.50;0.00
+1.3c Scene cylinder addition;Element;0.50;0.00
+1.3d Scene sum of shapes volumes;Element;1.00;0.00

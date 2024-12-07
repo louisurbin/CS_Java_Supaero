@@ -1,0 +1,14 @@
+4.2 AbstractBagIO and ConversionException
+ 0.00 /  0.50
+
+Detailed grades:
+ 0.00 /  0.50   4.2b AbstractBagIO updateBagFromFile
+                AbstractBagIO updateBagFromFile() should work as expected
+
+
+
+Detailed failures:
+
+4.2b AbstractBagIO updateBagFromFile
+    Unexpected FileNotFoundException: data\input_test_bag.csv (Le chemin d’accès spécifié est introuvable)
+

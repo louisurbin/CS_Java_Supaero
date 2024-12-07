@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "java.debug.settings.onBuildFailureProceed": true,
+}

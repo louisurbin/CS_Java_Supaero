@@ -1,0 +1,6 @@
+Label;Scope;Max;Value
+2 Natural order: Fruit class;Subtotal;3.00;3.00
+2a Ordering method compareTo();Element;1.00;1.00
+2b Natural order declarations;Element;1.00;1.00
+2c equals() and hashCode() compatibility with compareTo();Element;0.50;0.50
+2d Fruit logical equality and difference;Element;0.50;0.50
