@@ -23,8 +23,12 @@ public class Flight {
         return this.arrivalAirport;
     }
 
+    @Override
     public String toString() {
-        return this.flightNumber + " : " + this.departureAirport.getName() + " - " + this.arrivalAirport.getName();
+        return getFlightNumber() + " : " + getDepartureAirport().getIata() + " - " + getArrivalAirport().getIata();
     }
 
+    public boolean isConnectedTo(Flight next) {
+        return getArrivalAirport().equals(next.getDepartureAirport());
+    }
 }

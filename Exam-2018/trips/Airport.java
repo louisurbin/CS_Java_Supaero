@@ -9,6 +9,10 @@ public class Airport {
         this.iata = iata;
     }
 
+    @Override
+    public String toString() {
+        return getName() + "(" + getIata() + ")";
+    }
 
     public String getName() {
         return this.name;
@@ -18,8 +22,7 @@ public class Airport {
         return this.iata;
     }
 
-    public String toString() {
-        return this.name + " (" + this.iata + ")";
+    public boolean isSameAs(Airport other) {
+        return getIata().equals(other.getIata());
     }
-    
 }
