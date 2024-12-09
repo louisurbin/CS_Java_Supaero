@@ -33,7 +33,7 @@ public class RugbyPlayer implements Comparable<RugbyPlayer>{
       return this.fullname.equals(otherPlayer.fullname) && this.weight == otherPlayer.weight;
    }
 
-   public int hashcode(){
+   public int hashCode(){
       return Objects.hash(fullname, weight);
    }
 }
